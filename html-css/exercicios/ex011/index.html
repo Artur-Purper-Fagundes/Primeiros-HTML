@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia HTML5</title>
+</head>
+<body>
+    <h1>Midias Dinâmicas</h1>
+    <p>Site que muda a foto dependendo do tamanho</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Rodi.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Arrasca.png" type="image/png">
+        <img src="imagens/Flamengo.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzir Audio </h1>
+    <p>Vamos aprender a reproduzir audio</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/Tropa do Mengo Bolado.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não suporta audio <a href="midia/Tropa do Mengo Bolado.mp3">Clique aqui se quiser baixar o arquivo mp3!</a></p>
+    </audio>
+</body>
+</html>
